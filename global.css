@@ -1,0 +1,15 @@
+/*Install tailwindcss*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Hide scrollbar in body*/
+body {
+  @apply scrollbar-hide h-full;
+  overflow: hidden;
+  font-family: "Varela Round";
+}
+/*Make background transparent*/
+html {
+  @apply bg-opacity-0 h-full;
+}
